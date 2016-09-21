@@ -6,8 +6,6 @@ import './less/Main.less';
 import AppRouter from "./router/AppRouter";
 ObjectAssignPolyfill();
 
-import App from './views/App.tsx';
-
 ReactDOM.render(
     <AppRouter />,
     document.getElementById("root")
